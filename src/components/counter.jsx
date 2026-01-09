@@ -1,6 +1,11 @@
-import { useState } from "react";
+import { useState,useEffect } from "react";
 export default function Counter() {
     const [count, setCount] = useState(0);
+
+    useEffect(()=>{
+        console.log("user changed the value");
+    },[count]);
+    
     function handleIncrement() {
         setCount(count + 1);
     }
