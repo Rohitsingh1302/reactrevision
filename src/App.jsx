@@ -1,7 +1,8 @@
-import Hello from "./components/helloworld";
+import Counter from "./components/counter";
+
 function App() {
   return (
-      <Hello/>
+      <Counter/>
   );
 }
 
