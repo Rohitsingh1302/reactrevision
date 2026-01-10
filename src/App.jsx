@@ -1,9 +1,9 @@
 
-import Formtopic from "./components/form";
+import UncontrolledForm from "./components/uncontrolled";
 
 function App() {
   return (
-      <Formtopic/>
+      <UncontrolledForm/>
   );
 }
 
