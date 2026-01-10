@@ -1,8 +1,9 @@
-import Counter from "./components/counter";
+
+import Formtopic from "./components/form";
 
 function App() {
   return (
-      <Counter/>
+      <Formtopic/>
   );
 }
 

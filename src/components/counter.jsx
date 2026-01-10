@@ -1,11 +1,15 @@
-import { useState,useEffect } from "react";
+import { useState,useEffect, use } from "react";
 export default function Counter() {
     const [count, setCount] = useState(0);
 
     useEffect(()=>{
-        console.log("user changed the value");
+        console.log("component mounted");    //mounting phase
+    },[]);
+
+    useEffect(()=>{
+        console.log("user changed the value");  //updating phase
     },[count]);
-    
+
     function handleIncrement() {
         setCount(count + 1);
     }
