@@ -1,9 +1,9 @@
 
-import UncontrolledForm from "./components/uncontrolled";
+import HttpGet from "./components/httpget";
 
 function App() {
   return (
-      <UncontrolledForm/>
+      <HttpGet/>
   );
 }
 
