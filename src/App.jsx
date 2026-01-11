@@ -1,10 +1,8 @@
 
-import HttpPost from "../httppost";
-import HttpGet from "./components/httpget";
-
+import Axios from "./components/axios";
 function App() {
   return (
-      <HttpPost/>
+      <Axios/>
   );
 }
 
