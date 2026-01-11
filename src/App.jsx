@@ -1,9 +1,10 @@
 
+import HttpPost from "../httppost";
 import HttpGet from "./components/httpget";
 
 function App() {
   return (
-      <HttpGet/>
+      <HttpPost/>
   );
 }
 
